@@ -75,10 +75,22 @@ main div{
 .card{
     width: 280px;
     height: 280px;
-    background-image: url(./Imágenes/cardHombre.jpg);
     background-size: contain;
     display:grid;
     place-items: center;
+}
+
+.menCard .card{
+    background-image: url(./Imágenes/cardHombre.jpg);
+}
+.womenCard .card{
+    background-image: url(./Imágenes/cardMujer.jpg);
+    background-size: 98%;
+}
+.unisexCard .card{
+    background-image: url(./Imágenes/cardUnisex.jpg);
+    background-repeat: no-repeat;
+    background-size: 115%;
 }
 .card-shade{
     position: absolute;
