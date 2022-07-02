@@ -116,3 +116,24 @@ main div{
     font-weight: 700;
     background-position: right;
 }
+
+
+/* ESTILOS DEL FOOTER */
+footer{
+    padding: 20px 10px;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+footer img{
+    margin-right: 10px;
+    width: 22px;
+}
+footer .socialMedia_container ul li{
+    display: inline-block;
+}
+
+.telephonContainer{
+    display: flex;
+    justify-content: end;
+}
