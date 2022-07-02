@@ -17,6 +17,7 @@
     /* width: 80%; */
     display: grid;
     place-items: center;
+    justify-content: center;
 }
 .titleSection .divs{
     margin-top: 6px;
@@ -32,10 +33,10 @@ h1{
     padding: 10px;
     border-bottom: solid white 1.5px;
 }
-button{
+header button{
     border: solid whitesmoke 1.5px;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 3%;
     left: 41.5vw;
     padding: 5px;
     background: linear-gradient(to right, black, rgb(147, 142, 142), black);
@@ -126,14 +127,26 @@ footer{
     grid-template-columns: repeat(2, auto);
 }
 footer img{
-    margin-right: 10px;
-    width: 22px;
+    width: 120%;
 }
 footer .socialMedia_container ul li{
+    margin-right: 10%;
     display: inline-block;
 }
 
 .telephonContainer{
+    font-size: 14px;
     display: flex;
     justify-content: end;
+}
+/* Media querie para telefonos muy pequeños */
+@media (max-width: 350px) {
+    .telephonContainer{
+        font-size: 12px;
+        display: flex;
+        justify-content: none;
+    }   
+}
+@media (min-width: 630px) {
+    
 }
